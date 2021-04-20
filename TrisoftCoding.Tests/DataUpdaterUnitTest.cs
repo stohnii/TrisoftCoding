@@ -14,11 +14,11 @@ namespace TrisoftCoding.Tests
         [SetUp]
         public void Setup()
         {
-            string xml1 = "<?xml version=\"1.0\" encoding=\"UTF - 8\"?><test title = \"This Trisoft will be updated\"><line1 title = \"This Trisoft will be updated\" >Trisoft has been renamed to Trisoft </line1></test>";
+            string xml1 = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><test title = \"This Trisoft will be updated\"><line1 title = \"This Trisoft will be updated\" >Trisoft has been renamed to Trisoft </line1></test>";
             XmlDocument doc1 = new XmlDocument();
             doc1.LoadXml(xml1);
 
-            string xml2 = "<?xml version=\"1.0\" encoding=\"UTF - 8\"?><test title = \"This SDL Trisoft will be updated\"><line1 title = \"This SDL Trisoft will be updated\" >SDL Trisoft has been renamed to SDL Trisoft </line1></test>";
+            string xml2 = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><test title = \"This SDL Trisoft will be updated\"><line1 title = \"This SDL Trisoft will be updated\" >SDL Trisoft has been renamed to SDL Trisoft </line1></test>";
             XmlDocument doc2 = new XmlDocument();
             doc2.LoadXml(xml2);
 
